@@ -1,0 +1,64 @@
+body {
+    font-family: system-ui, sans-serif;
+}
+    
+.navbar {
+    position: sticky;
+    top: 0;
+}
+    
+.logo {
+    max-height: 40px;
+}
+
+.container {
+    margin-top: 2rem;
+    max-width: 64rem;
+}
+
+.form-group {
+    text-align: left;
+}
+  
+#dateFilter {
+    max-width: 150px; /* Adjust this value to your desired input width */
+}
+
+.list-group {
+    border-radius: 0;
+}
+
+.list-group-item {
+    border: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+    border-radius: 0;
+}
+  
+.list-group-item > div:first-child {
+    flex-grow: 1;
+    margin-right: 1rem;
+}
+  
+.list-group-item > div:last-child {
+    flex-shrink: 0;
+}
+
+#dateFilter {
+    border-color: #ccc; /* Choose your desired border color */
+}
+
+#reloadFilter {
+    border-color: #ccc; /* Choose the same border color as for the date picker */
+    margin-left: 0.5rem;
+}
+
+#reloadFilter:hover {
+    background-color: #ccc;
+}
+
+#reloadFilter ion-icon {
+    color: black; /* Set the color to black */
+}
+  
