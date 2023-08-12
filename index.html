@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montréal Events</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="m.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            mtl.sh
+          </a>
+        </div>
+      </nav>
+
+  <div class="container">
+    <h1>All the events in Montréal 🤘</h1>
+    <div class="form-group mb-3 mt-4 d-flex align-items-center">
+        <input type="date" id="dateFilter" class="form-control">
+        <button class="btn btn-outline-secondary" id="reloadFilter">
+				<ion-icon name="refresh-sharp"></ion-icon>
+        </button>
+
+      </div>
+    <ul id="eventList" class="list-group">
+      <!-- Event items will be dynamically added here -->
+    </ul>
+  </div>
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
